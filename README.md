@@ -1,4 +1,4 @@
-# Wormhole.Cash Website
+# wormhole.cash website
 
 This is the repository for [wormhole.cash](http://wormhole.cash).
 
@@ -9,7 +9,7 @@ This is the repository for [wormhole.cash](http://wormhole.cash).
  `cd` to the repository directory and run the following command:
 
 ```
-$ cd website
+$ cd wormhole.cash
 $ npm install
 ```
 Start the server: 
