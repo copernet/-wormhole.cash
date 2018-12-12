@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<%- include('partial/head'); -%>
+<style>
+    html,body{
+        height: 100%;
+    }
+    .not-found{
+        height: 100%;
+    }
+    .site-header{
+        padding-top: 12em;
+    }
+</style>
+    <body>
+        <a id="start"></a>
+        <%- include('partial/nav'); -%>
+            <div class="not-found">
+                <section class="text-center site-header not-found">
+                    <div class="container">
+                        <div class="row" id="header_error_row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h1 class="to-animate fadeInUp animated">Error 404</h1>
+                                <h2 class="to-animate fadeInUp animated">The page you are looking for does not exist.</h2>
+                                <br>
+                                <a class="btn btn-primary" href="../">Go to the homepage</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 ticker">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    </body>
+
+</html>
